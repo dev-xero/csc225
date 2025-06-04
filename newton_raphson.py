@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
     EPSILON = 1e-6
 
-    print("SOLVING EQUATIONS USING NEWTON-RAPHSON METHOD\n")
+    print("FINDING ROOTS USING NEWTON-RAPHSON METHOD\n")
     for idx, test in enumerate(test_cases):
         fx = test["fx"]
         fx_prime = test["fx_prime"]
@@ -128,5 +128,6 @@ if __name__ == "__main__":
         try:
             root = newton_raphson(fx, fx_prime, x0, EPSILON)
             print(f"- found root as: {root}\n")
+
         except Exception as e:
             print(f"- error: {e}\n")
