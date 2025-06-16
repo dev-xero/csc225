@@ -15,3 +15,7 @@ My implementation of various computational methods from numerical analysis from 
 - Forward Difference method
 - Backward Difference method
 - Center Difference method
+
+### `Numerical Integration`
+
+- Trapezoidal Rule
