@@ -14,6 +14,7 @@ def print_header(idx, **vals):
             print(f"- {key}: {val}")
 
 
+# can be messy
 def source(fx):
     text = inspect.getsource(fx).strip()
     match = re.search(r"lambda\s+[^:]+:\s+.*?(?=[,\}])", text)
