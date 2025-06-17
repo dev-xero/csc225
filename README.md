@@ -1,6 +1,6 @@
 # Computational Methods
 
-My implementation of various computational methods from numerical analysis from our CSC 225 course.
+My implementation of various computational methods for numerical analysis from our CSC 225 course.
 
 ## Methods
 
