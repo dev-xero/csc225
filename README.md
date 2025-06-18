@@ -20,9 +20,10 @@ My implementation of various computational methods for numerical analysis from o
 
 - Trapezoidal Rule
 
-### `Differential Equation`
+### `Differential Equations`
 
 - Euler's method
+- Improved Euler's method (Heun's)
 
 ## Sample Output from Euler's Method Computation
 
