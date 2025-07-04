@@ -4,30 +4,32 @@ My implementation of various computational methods for numerical analysis from o
 
 ## Methods
 
-### `Root Finding`
+### I. Root Finding
 
 - Bisection method
 - Newton-Raphson method
 - Secant method
 
-### `Numerical Differentiation`
+### II. Numerical Differentiation
 
 - Forward Difference method
 - Backward Difference method
 - Center Difference method
 
-### `Numerical Integration`
+### III. Numerical Integration
 
 - Trapezoidal Rule
 
-### `Differential Equations`
+### IV. Differential Equations
 
 - Euler's method
 - Improved Euler's method (Heun's)
 
-### `Interpolation`
+### V. Interpolation
 
 - Linear Spline Interpolation (Lerp)
+- Quadratic Spline Interpolation
+- Cubic Spline Interpolation (Cerp)
 
 ## Sample Output from Euler's Method Computation
 
@@ -78,7 +80,8 @@ n   | xn       | yn       | dy/dx    | h        | yn+1
 9   | 0.9000   | 0.3600   | 0.9000   | 0.1000   | 0.4500
 10  | 1.0000   | 0.4500   | 1.0000   | 0.1000   | 0.5500
 11  | 1.1000   | 0.5500   | 1.1000   | 0.1000   | 0.6600
-12  | 1.2000   | 0.6600   | 1.2000   | 0.1000   | 0.7800                                                                                                      13  | 1.3000   | 0.7800   | 1.3000   | 0.1000   | 0.9100
+12  | 1.2000   | 0.6600   | 1.2000   | 0.1000   | 0.7800
+13  | 1.3000   | 0.7800   | 1.3000   | 0.1000   | 0.9100
 14  | 1.4000   | 0.9100   | 1.4000   | 0.1000   | 1.0500
 15  | 1.5000   | 1.0500   | 1.5000   | 0.1000   | 1.2000
 16  | 1.6000   | 1.2000   | 1.6000   | 0.1000   | 1.3600
