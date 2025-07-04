@@ -10,7 +10,7 @@ def improved_euler(xn, yn, h, f):
     k1 = f(xn, yn)
     y_pred = yn + h * k1
     k2 = f(xn + h, y_pred)
-    # corrector step
+    # corrector step, take average
     return yn + (0.5 * h) * (k1 + k2)
 
 

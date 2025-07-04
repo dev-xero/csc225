@@ -25,6 +25,10 @@ My implementation of various computational methods for numerical analysis from o
 - Euler's method
 - Improved Euler's method (Heun's)
 
+### `Interpolation`
+
+- Linear Spline Interpolation (Lerp)
+
 ## Sample Output from Euler's Method Computation
 
 ```
@@ -109,3 +113,17 @@ n   | xn       | yn       | dy/dx    | h        | yn+1
 18  | 1.8000   | 2.1775   | 0.9738   | 0.1000   | 2.2749
 19  | 1.9000   | 2.2749   | 0.9463   | 0.1000   | 2.3695
 ```
+
+### Sample Lerp Output
+
+```
+LINEAR INTERPOLATION (LERP) VIA LINEAR SPLINES
+----------------------------------------------
+x: [0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4, 2.6, 2.8]
+y: [10.0, 11.216, 11.728, 11.632, 11.024, 10.0, 8.656, 7.088, 5.392, 3.664, 2.0, 0.496, -0.752, -1.648, -2.096]
+X: [0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4, 2.6, 2.8]
+Y: [10.0, 11.216, 11.728, 11.632, 11.024, 10.0, 8.656, 7.088, 5.392, 3.664, 2.0, 0.496, -0.752, -1.648, -2.096]
+```
+
+#### Fig
+
