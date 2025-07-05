@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 
 def lerp(x, y, X):
     """
-    Linear Interpolation (Lerp) via Linear Splines
-    ======================================================================
     Linear interpolation is a curve-fitting method of approximating paths
     which much pass through points using straight lines. Properties include
     C0 continuity i.e. continuous about the function
@@ -42,6 +40,17 @@ def lerp(x, y, X):
                 break
 
     return Y
+
+
+def plot_lerp(x_points, y_points, X_dense, Y_dense):
+    plt.plot(x_points, y_points, "o", label="Data Points", color="black")
+    plt.plot(X_dense, Y_dense, "-", label="Linear Spline", color="red")
+    plt.legend()
+    plt.title("Linear Spline Interpolation")
+    plt.xlabel("x")
+    plt.ylabel("y")
+    plt.grid(True)
+    plt.show()
 
 
 def evaluate():
@@ -107,20 +116,8 @@ def evaluate():
     print("X:", X_dense)
     print("Y:", Y_dense)
 
-    plt.plot(x_points, y_points, "o", label="Data Points", color="black")
-    plt.plot(X_dense, Y_dense, "-", label="Linear Spline", color="red")
-    plt.legend()
-    plt.title("Linear Spline Interpolation")
-    plt.xlabel("x")
-    plt.ylabel("y")
-    plt.grid(True)
-    plt.show()
+    plot_lerp(x_points, y_points, X_dense, Y_dense)
 
 
 if __name__ == "__main__":
     evaluate()
-
-
-def plot_lerp():
-    pass
-
