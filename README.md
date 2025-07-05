@@ -6,30 +6,34 @@ My implementation of various computational methods for numerical analysis from o
 
 ### I. Root Finding
 
-- Bisection method
-- Newton-Raphson method
-- Secant method
+-   Bisection method
+-   Newton-Raphson method
+-   Secant method
 
 ### II. Numerical Differentiation
 
-- Forward Difference method
-- Backward Difference method
-- Center Difference method
+-   Forward Difference method
+-   Backward Difference method
+-   Center Difference method
 
 ### III. Numerical Integration
 
-- Trapezoidal Rule
+-   Trapezoidal Rule
 
 ### IV. Differential Equations
 
-- Euler's method
-- Improved Euler's method (Heun's)
+-   Euler's method
+-   Improved Euler's method (Heun's)
 
 ### V. Interpolation
 
-- Linear Spline Interpolation (Lerp)
-- Quadratic Spline Interpolation
-- Cubic Spline Interpolation (Cerp)
+-   Linear Spline Interpolation (Lerp)
+-   Quadratic Spline Interpolation
+-   Cubic Spline Interpolation (Cerp)
+
+### VI. Fourier Transforms
+
+-   Discrete Fourier Transforms (DFT)
 
 ## Sample Output from Euler's Method Computation
 
@@ -129,3 +133,17 @@ Y: [10.0, 11.216, 11.728, 11.632, 11.024, 10.0, 8.656, 7.088, 5.392, 3.664, 2.0,
 ```
 
 ![lerp](./figs/lerp-1.png)
+
+### Sample DFT Output
+
+```
+DISCRETE FOURIER TRANSFORM (DFT) ON EVENLY SPACED SAMPLED SIGNALS
+------------------------------------------------------------------
+Sampling Rate: 20Hz per second
+Sampled Time: [0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
+Sampled Signals: [0.0, 5.57590997, 2.04087031, -8.37717508, -0.50202854, 10.0, -5.20431056, -0.768722952, -5.56758182, 10.278192, 1.71450552e-15, -10.278192, 5.56758182, 0.768722952, 5.20431056, -10.0, 0.50202854, 8.37717508, -2.04087031, -5.57590997]
+Frequencies: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0]
+Magnitudes: [8.881784197001252e-16, 5.324005902807683e-09, 7.95147192533863e-09, 1.6912485634179598e-08, 2.8537386675967933e-08, 70.00000000399999, 2.1372325242942584e-08, 2.612710048506525e-09, 40.00000001048071, 30.000000004975725, 2.2942475566164232e-14, 30.00000000497574, 40.00000001048064, 2.612764227198249e-09, 2.1372252412524513e-08, 70.00000000400001, 2.8537468388468907e-08, 1.6912498068739307e-08, 7.951387104343746e-09, 5.3240201140351945e-09]
+```
+
+![dft](./figs/dft.png)
