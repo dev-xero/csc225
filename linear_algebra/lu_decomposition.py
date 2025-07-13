@@ -3,7 +3,7 @@ import numpy as np
 
 def LU(A):
     """
-    Applies LU Decomposition using Dolittle's Algorithm to factorize
+    Applies LU Decomposition using Doolittle's Algorithm to factorize
     a square matrix A
     """
     N = len(A)
@@ -47,7 +47,7 @@ def solve(A, b):
 
     Where:
     A represents your coefficients matrix
-    L represents a lower triangular matrix (Dolittle's format)
+    L represents a lower triangular matrix (Doolittle's format)
     U represents an upper triangular matrix
     y represents intermediate vector for determining x
     x represents the final result i.e. the unknowns
