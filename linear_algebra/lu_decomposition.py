@@ -119,7 +119,10 @@ def print_header():
 
 
 def evaluate():
-    system = np.array([[2, 3, 1], [1, -2, 4]])
+    # system = np.array(
+    #     [[1, -1, 3, 2, 15], [1, 5, -5, -2, -35], [3, -5, 19, 3, 94], [2, -2, 3, 21, 1]]
+    # )
+    system = np.array([[1, 1, 1, 1], [4, 3, -1, 6], [3, 5, 3, 4]])
     A, b = extrapolate_components(system)
 
     print_header()
