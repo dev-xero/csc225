@@ -34,6 +34,13 @@ My implementation of various computational methods for numerical analysis from o
 ### VI. Fourier Transforms
 
 -   Discrete Fourier Transforms (DFT)
+-   Fast Fourier Transform (FFT) - Cooley-Tukey
+
+### VII. Linear Algebra
+
+- LU Decomposition (Dolittle's)
+- Gaussian Elimination
+- Jacobi Method
 
 ## Sample Output from Euler's Method Computation
 
