@@ -105,7 +105,7 @@ def gauss_solve(A, b):
     Solve a system of linear equations using Gaussian Elimination
     Algorithm:
     - forward elimination
-    - backward elimination
+    - backward substitution
     """
     n = len(A)
 
@@ -128,7 +128,7 @@ def gauss_solve(A, b):
                     A[k][j] -= factor * A[i][j]
                 b[k] -= factor * b[i]
 
-    # Backward elimination
+    # Backward substitution
     x = [0.0] * n
     for i in range(n-1, -1, -1):
         x[i] = b[i]
